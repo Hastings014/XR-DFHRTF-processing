@@ -1,5 +1,5 @@
 # XR-based HRTF Measurement Postprocessing
-This set of MATLAB functions is a part of the [XR-based HRTF Measurement System](https://trsonic.github.io/XR-HRTFs/). It serves as a postprocessing workflow for binaural sine sweep signals recorded using the [HRTF Measurement Control App](https://github.com/trsonic/XR-HRTF-capture).
+This set of MATLAB functions is a part of the [XR-based HRTF Measurement System](https://trsonic.github.io/XR-HRTFs/). It serves as a postprocessing workflow for binaural sine sweep signals recorded using the [HRTF Measurement Control App](https://github.com/trsonic/XR-HRTF-capture). Please see the wiki for additional info.  
 
 ## Getting Started
 * Requirements

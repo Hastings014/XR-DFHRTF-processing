@@ -3,18 +3,19 @@ This set of MATLAB functions is a part of the [XR-based HRTF Measurement System]
 
 ## Getting Started
 * Requirements
-    * MATLAB (tested using R2022a)
-    * [SOFA MATLAB Toolbox](https://github.com/sofacoustics/SOFAtoolbox)
+    * MATLAB (tested using R2024b)
+    * [SOFA MATLAB Toolbox](https://github.com/sofacoustics/SOFAtoolbox) - optionally 
     * [Ambisonic Decoder Toolbox](https://bitbucket.org/ambidecodertoolbox/adt/src/master/) - optionally, comment out `saveAsAmbix` function call if you don't need Ambisonic decoders to be calculated.
 * Usage
     * Once the binaural recordings have been captured, edit the path to the subject dir in `IRprocessing.m` script. Running the script should execute all necessary processing.
 
 ## Output data
+* The blocked-canal Diffuse Field Head-Related Transfer Function of the measured ears in .csv format 
 * A set of various plots (located in the subject folder under `/figures/`)
-* SOFA files:
+* Optionally - SOFA files:
     * RAW HRIRs at measured directions
     * Diffuse-field Equalized HRIRs at measured directions
     * RAW HRIRs at interpolated directions
     * Diffuse-field Equalized HRIRs at interpolated directions
 * Measured HRIRs in Wave format
-* Ambix Ambisonic decoder config files
+* Optionally - Ambix Ambisonic decoder config files

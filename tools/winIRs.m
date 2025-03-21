@@ -19,7 +19,7 @@ function IRbank = winIRs(IRbank, plotting, save_fig_folder)
         
         % get ITD, direct sound sample indices, and direct sound delay
         [IRbank(i).ITD,maxL,maxR,IRbank(i).dlyL,IRbank(i).dlyR] = getITD(irLeft,irRight,Fs);
-
+%% AE
         % apply window
         winstart = fix(maxL - winshift);
         winend = winstart + Nwin - 1;
